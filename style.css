@@ -1,0 +1,48 @@
+@font-face {
+    font-family: my_font;
+    src: url(font/Product\ Sans\ Regular.ttf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(244, 236, 247);
+}
+
+#container{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(232, 218, 239);
+    border-radius: 50px;
+    text-align: center;
+    font-family: my_font;
+    
+}
+
+#container > h1{
+    margin-top: 25%;
+    user-select: none;
+}
+
+#container> input{
+    margin-top: 8%;
+    font-size: 1.5em;
+    
+}
+
+#container>button{
+    font-size: 1.5em;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 8px;
+    margin: 1%;
+}
+#container>button:hover{
+    border: solid 2px rgb(165, 105, 189);
+    background-color: white;
+    color: rgb(165, 105, 189);
+    cursor: pointer;
+}
